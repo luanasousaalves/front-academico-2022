@@ -6,7 +6,7 @@ import { BsArrowLeft } from 'react-icons/bs'
 import apiAcademico from '../../services/apiAcademico'
 import { useForm } from 'react-hook-form'
 
-const CursosForm = () => {
+const SemestresForm = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm()
 
@@ -16,7 +16,7 @@ const CursosForm = () => {
 
     return (
         <div>
-            <h1>Cursos</h1>
+            <h1>Semestres</h1>
             <Form>
                 <Form.Group className="mb-3" controlId="nome">
                     <Form.Label>Nome: </Form.Label>
@@ -42,4 +42,4 @@ const CursosForm = () => {
     )
 }
 
-export default CursosForm
+export default SemestresForm

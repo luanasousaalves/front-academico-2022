@@ -10,6 +10,7 @@ import DisciplinasLista from "./pages/disciplinas/DisciplinasLista";
 import ProfessoresForm from "./pages/professores/ProfessoresForm";
 import AlunosForm from "./pages/alunos/AlunosForm";
 import TurmasForm from "./pages/Turmas/TurmasForm";
+import SemestresForm from "./pages/semestres/Semestresform";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
             <Route path="/disciplinas/create" element={<Disciplinas />} />
             <Route path="/alunos" element={<AlunosForm />} />
             <Route path="/turmas" element={<TurmasForm />} />
-            
+            <Route path="/semestres" element={<SemestresForm />} />
           </Routes>
         </Container>
       </BrowserRouter>
